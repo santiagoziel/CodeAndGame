@@ -35,8 +35,7 @@ In order to talk to both of them.
 
 ## How to Use
   ```
-  git clone https://github.com/santiagoziel/FlaskChat.git
-  cd FlaskChat
+  cd Sockets - Chats Demo
   pipenv shell
   pipenv install
   python3 run.py
