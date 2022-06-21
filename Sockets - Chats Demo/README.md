@@ -26,12 +26,7 @@ In order to talk to both of them.
 ### Requirements
 - Python 3.9 or higher
 - pip3 or higher
-- pipenv installed
-  - to install run:
-  ```
-  pip install pipenv
-  ```
-  [pipenv info](https://pypi.org/project/pipenv/)
+- [pipenv installed](https://pypi.org/project/pipenv/)
 
 ## How to Use
   ```
@@ -41,8 +36,3 @@ In order to talk to both of them.
   python3 run.py
   ```
 **Navigate to** http://127.0.0.1:5000 and go nuts.
-### TODO
-- [ ] improve general look
-- [ ] improve online users look
-- [ ] display differentiate from diff users messages
-- [ ] make user system more robust
