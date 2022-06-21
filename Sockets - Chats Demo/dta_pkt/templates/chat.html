@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta id="my_username" data-name="{{user.username}}">
+    <link rel="stylesheet" href="/static/chat.css"/>
+    <title id = "{{user.username}}">chat app de {{user.username}}</title>
+  </head>
+  <body onbeforeunload="return socket.emit('client_disconnecting', 'bye')">
+    <div class="column left" style="background-color:#aaa;">
+      <h2>En linea</h2>
+      <ul id = "connected_users">
+        {% for usuario in users %}
+          <li class="onlineUser" id="{{usuario.username}}">{{usuario.username}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="column right" style="background-color:#bbb;">
+    <h2>Chat app de {{user.username}}</h2>
+    Mensaje: <input type="text" id="myText">
+    <button onclick="SendToServer()">Try it</button>
+    <button onclick="Triger_disconect()" type="button" name="button">Disconect</button>
+    <ul id = "chatView"/>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js" integrity="sha512-q/dWJ3kcmjBLU4Qc47E4A9kTB4m3wuTY7vkFJDTZKjTs8jhyGQnaUrxa0Ytd0ssMZhbNua9hE+E7Qv1j+DyZwA==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./static/chat.js"></script>
+  </body>
+</html>

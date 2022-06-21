@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <title>Log in</title>
+  </head>
+  <body>
+    <div class="container user-name mt-5 ">
+      <div class="title">
+        <h1>The Chat App</h1>
+      </div>
+      <form method="post" action="">
+        {{form.hidden_tag()}}
+      <div class="form-group mt-5 align-middle">
+          {{form.username(class="form-control")}}
+      </div>
+      <div class="form-group align-middle">
+          {{form.submit(class="btn form-control btn-info")}}
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
