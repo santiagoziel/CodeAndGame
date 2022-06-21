@@ -1,2 +1,2 @@
 # CodeAndGame
-Proyectos ejemplo como acompañamiento de presentación “Que pasa cuando haces click en Chrome”
+Proyectos ejemplo como acompañamiento de presentación “Goku aprende como funciona el internet... Apresurate!”
