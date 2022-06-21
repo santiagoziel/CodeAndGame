@@ -26,7 +26,7 @@ Si el precio pasa de 2 limites determinados da una alerta a un dispositivo Alexa
 
 Es necesario registarse en ambas la [API de coinmarketcap](https://coinmarketcap.com/api/documentation/v1/) y la [API de voice monkey](https://voicemonkey.io/start) para obtener las llaves que te permitiran usarlas.
 
-En el codigo encontraras varios valores encerrados <DE ESTA MANERA> por lis simbolos <>.
+En el codigo encontraras varios valores encerrados <DE ESTA MANERA> por simbolos <>.
 
 Cuando veas eso, es señal de que debes remplazarlo con tus propios valores.
 
