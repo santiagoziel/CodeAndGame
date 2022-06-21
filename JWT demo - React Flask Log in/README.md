@@ -25,3 +25,6 @@ npm satrt
 ```
 
 Se debe abrir una ventana apuntando a 127.0.0.1:3000 donde podrás usar la aplicación.
+
+## Creditos
+Basado en el [Tutorial por Faruq Abdulsalam](https://dev.to/nagatodev/how-to-add-login-authentication-to-a-flask-and-react-application-23i7)
